@@ -5,7 +5,7 @@ const Footer = () => {
       
       <>
                   <footer className="links mb-0">
-                <div className="row row-cols-1 row-cols-md-3 g-4 container m-auto">
+                <div className="row row-cols-1 row-cols-md-3 g-4 container m-auto pb-3">
                     <div className="col pt-5 pb-5">
                         <div className=" text-center">
                             <div className="card-body text-white">
