@@ -11,10 +11,10 @@ const About = () => {
         <>
 
 
-            <header className="min-vh-100 main-color">
+            <header className="min-vh-100 main-color ">
                 <Navbar />
                 <div className=" w-100 m-auto d-flex justify-content-center align-items-center min-vh-100 flex-column">
-                    <h1 className="fs-1 fw-bolder text-white text-uppercase ">About Component</h1>
+                    <h1 className="fs-1 fw-bolder text-white text-uppercase pt-5 ">About Component</h1>
                     <div className="d-flex flex-row">
                         <div className="about-linear"> </div>
                         <i className=" text-white pt-4 ps-3 pe-3 fa-solid fa-star"></i>
