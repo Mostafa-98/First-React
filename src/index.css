@@ -1,0 +1,60 @@
+
+:root {
+  --main-color: #1ABC9C;
+  --main-color-rgba: rgba(26, 188, 156, 0.9);
+}
+.main-color{
+    background-color: var(--main-color);
+}
+.active{
+    background-color: var(--main-color);
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+.navbar{
+    background-color: #2C3E50;
+}
+.about-linear{
+    border-bottom: 5px solid white;
+    width: 100px;
+}
+.portfolio-linear{
+    border-bottom: 5px solid #2C3E50;
+    width: 100px;
+}
+.links{
+    background-color: #2C3E50;
+    height: auto;
+    margin-bottom: 0px;
+}
+.btn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+.layer{
+    width: 100%;
+    height: 100%;
+    background-color: var(--main-color-rgba);
+    opacity: 0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+.layer-parent:hover .layer {
+
+    opacity: 1;
+    cursor: pointer;
+    
+}
+.inner{
+    background-image: url(./../src/assets/images/poert1.png);
+    background-size: cover;
+    background-position: center center;
+    height: 350px;
+}
