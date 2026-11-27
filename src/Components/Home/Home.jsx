@@ -12,13 +12,13 @@ const Home = () => {
                 <div className=" text-center mt-5">
                     <img src={avatar} className="w-75" alt=" photo" />
                 </div>
-                    <h1 className=" text-uppercase fw-bold mt-5 text-white "> Start Framework</h1>
+                    <h1 className=" text-uppercase fw-bold mt-5 text-white "> Freelancer</h1>
                     <div className="d-flex flex-row pb-4">
                         <div className="about-linear"> </div>
                         <i className="pt-2 ps-3 pe-3 fa-solid text-white fa-star"></i>
                         <div className="about-linear"></div>
                     </div>
-                    <p className="text-white">Graphic Artist - Web Designer - Illustrator</p>
+                    <p className="text-white">The Freelancer theme rebuilt with React &amp; Vite</p>
                 </div >
             </header>
 

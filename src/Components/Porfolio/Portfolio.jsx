@@ -13,7 +13,7 @@ const Profolio = () => {
       <Navbar />
       <header className="min-vh-100 pb-5" style={{ paddingTop: '150px' }}>
         <div className="w-100 m-auto d-flex justify-content-center align-items-center flex-column">
-          <h1 className="fs-1 fw-bolder text-uppercase" >Portfolio Component</h1>
+          <h1 className="fs-1 fw-bolder text-uppercase" >Portfolio</h1>
           <div className="d-flex flex-row">
             <div className="portfolio-linear"> </div>
             <i className="pt-3 ps-3 pe-3 fa-solid fa-star"></i>

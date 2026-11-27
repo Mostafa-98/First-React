@@ -1,8 +1,18 @@
-# React + Vite
+# Freelancer React (First React App)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My first React project: the Freelancer Bootstrap theme rebuilt as a single-page app.
 
-Currently, two official plugins are available:
+**Live demo:** https://mostafa-98.github.io/First-React/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Four routes (Home, About, Portfolio, Contact) with hash routing for GitHub Pages
+- Portfolio grid with a lightbox overlay
+- Contact form that opens a pre-filled email
+- Fixed navbar with active-link styling
+
+## Built with
+
+- React 18 + Vite
+- React Router (createHashRouter)
+- Bootstrap 5 + Font Awesome
